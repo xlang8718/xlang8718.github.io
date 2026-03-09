@@ -1,5 +1,27 @@
 import { defineConfig } from 'vitepress'
 
+const sidebar = [
+  {
+    text: 'Docker',
+    items: [
+      { text: 'Docker 运维命令', link: 'docker-ops' },
+      { text: 'Docker 镜像加速', link: 'docker-mirror' }
+    ]
+  },
+  {
+    text: 'Linux',
+    items: [
+      { text: 'Linux 系统恢复', link: 'linux-recovery' }
+    ]
+  },
+  {
+    text: 'Kubernetes',
+    items: [
+      { text: 'Kubectl 日常命令', link: 'kubctl-command' }
+    ]
+  }
+]
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "DevOps 知识库",
@@ -12,46 +34,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '🏠 首页', link: '/' },
-      {
-        text: 'Docker',
-        items: [
-          { text: 'Docker 运维命令', link: 'docker-ops' }
-        ]
-      },
-      {
-        text: 'Linux',
-        items: [
-          { text: 'Linux 系统恢复', link: 'linux-recovery' }
-        ]
-      },
-      {
-        text: 'Kubernetes',
-        items: [
-          { text: 'Kubectl 日常命令', link: 'kubctl-command' }
-        ]
-      }
+      ...sidebar
     ],
 
-    sidebar: [
-      {
-        text: 'Docker',
-        items: [
-          { text: 'Docker 运维命令', link: 'docker-ops' }
-        ]
-      },
-      {
-        text: 'Linux',
-        items: [
-          { text: 'Linux 系统恢复', link: 'linux-recovery' }
-        ]
-      },
-      {
-        text: 'Kubernetes',
-        items: [
-          { text: 'Kubectl 日常命令', link: 'kubctl-command' }
-        ]
-      }
-    ],
+    sidebar: sidebar,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xlang8718/xlang8718.github.io' }
