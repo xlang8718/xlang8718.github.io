@@ -61,13 +61,6 @@ jobs:
         working-directory: docs/.vitepress/dist
         run: |
           cat << "EOF" > README.md
-          Website: https://github.com/xlang8718/devops-reference
-          EOF
-
-      - name: gh-pages README.md
-        working-directory: docs/.vitepress/dist
-        run: |
-          cat << "EOF" > README.md
           Website: https://github.com/xlang8718/xlang8718.github.io
           ```
           EOF
