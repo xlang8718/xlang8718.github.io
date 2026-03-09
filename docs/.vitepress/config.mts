@@ -49,13 +49,13 @@ export default defineConfig({
       level: 'deep'
     },
 
-    lastUpdated: {
-      text: '最后更新于',
-      formatOptions: {
-        dateStyle: 'short',
-        timeStyle: 'medium'
-      }
-    },
+    // lastUpdated: {
+    //   text: '最后更新于',
+    //   formatOptions: {
+    //     dateStyle: 'short',
+    //     timeStyle: 'medium'
+    //   }
+    // },
 
     returnToTopLabel: '返回顶部',
     sidebarMenuLabel: '菜单',
