@@ -19,6 +19,29 @@ export default defineConfig({
           { text: 'Test', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
+      },
+      {
+        text: 'Linux',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: 'Docker',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Runtime API 参考', link: '/api-examples' }
+        ]
+      },
+      {
+        text: 'Kubernetes',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Test', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
       }
     ],
 
