@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "DevOps 知识库",
+  description: "一站式学习 DevOps、云原生、云计算、网络和数据库等运维技能",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
