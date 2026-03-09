@@ -57,9 +57,10 @@ jobs:
         with:
           path: docs/.vitepress/dist
 
-      - name: gh-pages README.md
+      - name: gh-pages README.md and CNAME
         working-directory: docs/.vitepress/dist
         run: |
+          echo "devops.yunmax.cn" > CNAME
           cat << "EOF" > README.md
           在线访问: https//:xlang8718.github.io
           ```
