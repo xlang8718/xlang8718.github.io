@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始学习
-      link: docker-ops
+      link: /docker-ops
     - theme: alt
       text: GitHub 仓库
       link: https://github.com/xlang8718/xlang8718.github.io
