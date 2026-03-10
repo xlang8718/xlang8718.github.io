@@ -1,0 +1,1 @@
+import{_ as a,o as r,c as i,ak as l}from"./chunks/framework.CMX7UUIo.js";const m=JSON.parse('{"title":"M-LAG链路聚合技术","description":"","frontmatter":{},"headers":[],"relativePath":"M-LAG.md","filePath":"M-LAG.md"}'),o={name:"M-LAG.md"};function p(n,e,t,d,A,h){return r(),i("div",null,[...e[0]||(e[0]=[l("",48)])])}const L=a(o,[["render",p]]);export{m as __pageData,L as default};
