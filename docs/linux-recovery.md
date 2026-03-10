@@ -1,4 +1,4 @@
-# 🚑 恢复误删除的 /usr 目录指南
+# 恢复误删除的 /usr 目录指南
 
 > **危险动作，请勿模仿！** 如果你不小心执行了 `rm -rf /usr`，这份指南可能是你的“救命稻草”。🚀
 > 参考来源：[CSDN - 误删/usr后的系统恢复指南](https://blog.csdn.net/chinese_tiger/article/details/8238144)

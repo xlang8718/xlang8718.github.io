@@ -17,7 +17,8 @@ const sidebar = [
   {
     text: 'Kubernetes',
     items: [
-      { text: 'Kubectl 日常命令', link: '/kubctl-command' }
+      { text: 'Kubectl 日常命令', link: '/kubctl-command' },
+      { text: 'K8s 存储 (PV/PVC/SC)', link: '/k8s-storage' }
     ]
   }
 ]
