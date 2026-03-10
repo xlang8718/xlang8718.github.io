@@ -1,6 +1,13 @@
 import { defineConfig } from 'vitepress'
 
+// 侧边栏配置
 const sidebar = [
+  {
+    text: 'Network',
+    items: [
+      { text: 'M-LAG链路聚合', link: '/M-LAG' }
+    ]
+  },
   {
     text: 'Docker',
     items: [
